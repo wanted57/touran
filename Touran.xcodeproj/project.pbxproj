@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0D8ADB1EF6527E0099845F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D8ADA1EF6527E0099845F /* AppDelegate.swift */; };
+		ED0D8ADD1EF6527E0099845F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D8ADC1EF6527E0099845F /* ViewController.swift */; };
+		ED0D8AE01EF6527E0099845F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0D8ADE1EF6527E0099845F /* Main.storyboard */; };
+		ED0D8AE31EF6527E0099845F /* Touran.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED0D8AE11EF6527E0099845F /* Touran.xcdatamodeld */; };
+		ED0D8AE51EF6527E0099845F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0D8AE41EF6527E0099845F /* Assets.xcassets */; };
+		ED0D8AE81EF6527E0099845F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0D8AE61EF6527E0099845F /* LaunchScreen.storyboard */; };
+		ED0D8AF31EF6527E0099845F /* TouranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D8AF21EF6527E0099845F /* TouranTests.swift */; };
+		ED0D8AFE1EF6527E0099845F /* TouranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D8AFD1EF6527E0099845F /* TouranUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED0D8AEF1EF6527E0099845F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0D8ACF1EF6527D0099845F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0D8AD61EF6527E0099845F;
+			remoteInfo = Touran;
+		};
+		ED0D8AFA1EF6527E0099845F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0D8ACF1EF6527D0099845F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0D8AD61EF6527E0099845F;
+			remoteInfo = Touran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED0D8AD71EF6527E0099845F /* Touran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D8ADA1EF6527E0099845F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0D8ADC1EF6527E0099845F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0D8ADF1EF6527E0099845F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0D8AE21EF6527E0099845F /* Touran.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touran.xcdatamodel; sourceTree = "<group>"; };
+		ED0D8AE41EF6527E0099845F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0D8AE71EF6527E0099845F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0D8AE91EF6527E0099845F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0D8AEE1EF6527E0099845F /* TouranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D8AF21EF6527E0099845F /* TouranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouranTests.swift; sourceTree = "<group>"; };
+		ED0D8AF41EF6527E0099845F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0D8AF91EF6527E0099845F /* TouranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D8AFD1EF6527E0099845F /* TouranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouranUITests.swift; sourceTree = "<group>"; };
+		ED0D8AFF1EF6527E0099845F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0D8AD41EF6527E0099845F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D8AEB1EF6527E0099845F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D8AF61EF6527E0099845F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0D8ACE1EF6527D0099845F = {
+			isa = PBXGroup;
+			children = (
+				ED0D8AD91EF6527E0099845F /* Touran */,
+				ED0D8AF11EF6527E0099845F /* TouranTests */,
+				ED0D8AFC1EF6527E0099845F /* TouranUITests */,
+				ED0D8AD81EF6527E0099845F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0D8AD81EF6527E0099845F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D8AD71EF6527E0099845F /* Touran.app */,
+				ED0D8AEE1EF6527E0099845F /* TouranTests.xctest */,
+				ED0D8AF91EF6527E0099845F /* TouranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0D8AD91EF6527E0099845F /* Touran */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D8ADA1EF6527E0099845F /* AppDelegate.swift */,
+				ED0D8ADC1EF6527E0099845F /* ViewController.swift */,
+				ED0D8ADE1EF6527E0099845F /* Main.storyboard */,
+				ED0D8AE41EF6527E0099845F /* Assets.xcassets */,
+				ED0D8AE61EF6527E0099845F /* LaunchScreen.storyboard */,
+				ED0D8AE91EF6527E0099845F /* Info.plist */,
+				ED0D8AE11EF6527E0099845F /* Touran.xcdatamodeld */,
+			);
+			path = Touran;
+			sourceTree = "<group>";
+		};
+		ED0D8AF11EF6527E0099845F /* TouranTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D8AF21EF6527E0099845F /* TouranTests.swift */,
+				ED0D8AF41EF6527E0099845F /* Info.plist */,
+			);
+			path = TouranTests;
+			sourceTree = "<group>";
+		};
+		ED0D8AFC1EF6527E0099845F /* TouranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D8AFD1EF6527E0099845F /* TouranUITests.swift */,
+				ED0D8AFF1EF6527E0099845F /* Info.plist */,
+			);
+			path = TouranUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0D8AD61EF6527E0099845F /* Touran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0D8B021EF6527E0099845F /* Build configuration list for PBXNativeTarget "Touran" */;
+			buildPhases = (
+				ED0D8AD31EF6527E0099845F /* Sources */,
+				ED0D8AD41EF6527E0099845F /* Frameworks */,
+				ED0D8AD51EF6527E0099845F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touran;
+			productName = Touran;
+			productReference = ED0D8AD71EF6527E0099845F /* Touran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED0D8AED1EF6527E0099845F /* TouranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0D8B051EF6527E0099845F /* Build configuration list for PBXNativeTarget "TouranTests" */;
+			buildPhases = (
+				ED0D8AEA1EF6527E0099845F /* Sources */,
+				ED0D8AEB1EF6527E0099845F /* Frameworks */,
+				ED0D8AEC1EF6527E0099845F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0D8AF01EF6527E0099845F /* PBXTargetDependency */,
+			);
+			name = TouranTests;
+			productName = TouranTests;
+			productReference = ED0D8AEE1EF6527E0099845F /* TouranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED0D8AF81EF6527E0099845F /* TouranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0D8B081EF6527E0099845F /* Build configuration list for PBXNativeTarget "TouranUITests" */;
+			buildPhases = (
+				ED0D8AF51EF6527E0099845F /* Sources */,
+				ED0D8AF61EF6527E0099845F /* Frameworks */,
+				ED0D8AF71EF6527E0099845F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0D8AFB1EF6527E0099845F /* PBXTargetDependency */,
+			);
+			name = TouranUITests;
+			productName = TouranUITests;
+			productReference = ED0D8AF91EF6527E0099845F /* TouranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0D8ACF1EF6527D0099845F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wanted;
+				TargetAttributes = {
+					ED0D8AD61EF6527E0099845F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LTHADFEP7X;
+						ProvisioningStyle = Automatic;
+					};
+					ED0D8AED1EF6527E0099845F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LTHADFEP7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED0D8AD61EF6527E0099845F;
+					};
+					ED0D8AF81EF6527E0099845F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LTHADFEP7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED0D8AD61EF6527E0099845F;
+					};
+				};
+			};
+			buildConfigurationList = ED0D8AD21EF6527D0099845F /* Build configuration list for PBXProject "Touran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0D8ACE1EF6527D0099845F;
+			productRefGroup = ED0D8AD81EF6527E0099845F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0D8AD61EF6527E0099845F /* Touran */,
+				ED0D8AED1EF6527E0099845F /* TouranTests */,
+				ED0D8AF81EF6527E0099845F /* TouranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0D8AD51EF6527E0099845F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D8AE81EF6527E0099845F /* LaunchScreen.storyboard in Resources */,
+				ED0D8AE51EF6527E0099845F /* Assets.xcassets in Resources */,
+				ED0D8AE01EF6527E0099845F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D8AEC1EF6527E0099845F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D8AF71EF6527E0099845F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0D8AD31EF6527E0099845F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D8ADD1EF6527E0099845F /* ViewController.swift in Sources */,
+				ED0D8ADB1EF6527E0099845F /* AppDelegate.swift in Sources */,
+				ED0D8AE31EF6527E0099845F /* Touran.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D8AEA1EF6527E0099845F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D8AF31EF6527E0099845F /* TouranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D8AF51EF6527E0099845F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D8AFE1EF6527E0099845F /* TouranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED0D8AF01EF6527E0099845F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0D8AD61EF6527E0099845F /* Touran */;
+			targetProxy = ED0D8AEF1EF6527E0099845F /* PBXContainerItemProxy */;
+		};
+		ED0D8AFB1EF6527E0099845F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0D8AD61EF6527E0099845F /* Touran */;
+			targetProxy = ED0D8AFA1EF6527E0099845F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED0D8ADE1EF6527E0099845F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0D8ADF1EF6527E0099845F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0D8AE61EF6527E0099845F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0D8AE71EF6527E0099845F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0D8B001EF6527E0099845F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0D8B011EF6527E0099845F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0D8B031EF6527E0099845F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTHADFEP7X;
+				INFOPLIST_FILE = Touran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wanted.Touran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED0D8B041EF6527E0099845F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTHADFEP7X;
+				INFOPLIST_FILE = Touran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wanted.Touran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED0D8B061EF6527E0099845F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LTHADFEP7X;
+				INFOPLIST_FILE = TouranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wanted.TouranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touran.app/Touran";
+			};
+			name = Debug;
+		};
+		ED0D8B071EF6527E0099845F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LTHADFEP7X;
+				INFOPLIST_FILE = TouranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wanted.TouranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touran.app/Touran";
+			};
+			name = Release;
+		};
+		ED0D8B091EF6527E0099845F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LTHADFEP7X;
+				INFOPLIST_FILE = TouranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wanted.TouranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Touran;
+			};
+			name = Debug;
+		};
+		ED0D8B0A1EF6527E0099845F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LTHADFEP7X;
+				INFOPLIST_FILE = TouranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wanted.TouranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Touran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0D8AD21EF6527D0099845F /* Build configuration list for PBXProject "Touran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D8B001EF6527E0099845F /* Debug */,
+				ED0D8B011EF6527E0099845F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0D8B021EF6527E0099845F /* Build configuration list for PBXNativeTarget "Touran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D8B031EF6527E0099845F /* Debug */,
+				ED0D8B041EF6527E0099845F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED0D8B051EF6527E0099845F /* Build configuration list for PBXNativeTarget "TouranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D8B061EF6527E0099845F /* Debug */,
+				ED0D8B071EF6527E0099845F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED0D8B081EF6527E0099845F /* Build configuration list for PBXNativeTarget "TouranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D8B091EF6527E0099845F /* Debug */,
+				ED0D8B0A1EF6527E0099845F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED0D8AE11EF6527E0099845F /* Touran.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED0D8AE21EF6527E0099845F /* Touran.xcdatamodel */,
+			);
+			currentVersion = ED0D8AE21EF6527E0099845F /* Touran.xcdatamodel */;
+			path = Touran.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED0D8ACF1EF6527D0099845F /* Project object */;
+}
